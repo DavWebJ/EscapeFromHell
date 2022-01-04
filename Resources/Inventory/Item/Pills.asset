@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0ba96d148900d409e7b4bcd4ca53b0, type: 3}
+  m_Name: Pills
+  m_EditorClassIdentifier: 
+  ItemName: Pills
+  ItemDescription: une petite boite d' antalgique, peut soigner les petites douleurs
+  ItemIcon: {fileID: 21300000, guid: ce550630ba74e1248bea9bacd4b08258, type: 3}
+  price: 0
+  itemType: 2
+  ItemRarity: 1
+  objectType: 0
+  firemode: 1
+  weaponType: 0
+  useWithAnimation: 0
+  amount: 1
+  maxAmount: 10
+  stackable: 1
+  isPerimable: 0
+  fx: []
+  heal_clip: {fileID: 8300000, guid: 4a5fff9a8d132a840b5449f18522a6bc, type: 3}
+  equiped_clip: {fileID: 0}
+  exhal_clip: {fileID: 8300000, guid: 83fae0672fd00834a8998cbbf25bc615, type: 3}
+  rarityItem: 25
+  ItemGroundPrefabs: {fileID: 1892410229303925412, guid: 17de1d7a6bbc3f9489fe88ed2c52e8f3, type: 3}
+  WeaponArmPrefab: {fileID: 0}
+  ToolsArmPrefab: {fileID: 0}
+  attributes:
+    name: Pills
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    destroyItemAfterAction: 1
+    actions:
+    - name: Pills
+      fonctions: AddHealth
+      value: 25
+  actions:
+    name: 
+    fonctions: 
+    value: 0
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    recipeCraftItems: []
+  buildable:
+    BuilditemName: 
+    BuildItemPrefabs: {fileID: 0}

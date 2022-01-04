@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15572df3a845b204091c8d6890c3bd00, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  ItemName: Gun
+  ItemDescription: un simple pistolet
+  ItemIcon: {fileID: 21300000, guid: 86e14b86b0d58674e8c4cf27dbd0dd27, type: 3}
+  price: 0
+  itemType: 10
+  ItemRarity: 0
+  objectType: 1
+  firemode: 1
+  weaponType: 0
+  useWithAnimation: 0
+  amount: 1
+  maxAmount: 1
+  stackable: 0
+  isPerimable: 0
+  fx: []
+  rarityItem: 10
+  ItemGroundPrefabs: {fileID: 1397728157626766240, guid: 15aa4b5fe40d8ad408b7ff5cc8e081e2, type: 3}
+  WeaponArmPrefab: {fileID: 2540731379931490610, guid: 937d1cfcf9acb824aaa7b3a0f8443fb0, type: 3}
+  ToolsArmPrefab: {fileID: 0}
+  attributes:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    destroyItemAfterAction: 0
+    actions: []
+  actions:
+    name: 
+    fonctions: 
+    value: 0
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    recipeCraftItems: []
+  buildable:
+    BuilditemName: 
+    BuildItemPrefabs: {fileID: 0}
+  pathToMuzzleFx: parentmodel/Hp_Base/muzzle
+  pathToMuzzleTransform: parentmodel/Hp_Base/muzzle
+  pathToCartridgeFx: parentmodel/Hp_Base/cartridge
+  equiped_sound: {fileID: 8300000, guid: 153265b670cc4e64f9c556abd900ff70, type: 3}
+  unequiped_sound: {fileID: 8300000, guid: 092ec6bae1058f54ab0d8c0f67da3ea1, type: 3}
+  cartridge_clip: {fileID: 0}
+  fire_clip: {fileID: 8300000, guid: 57be9f76b7fd1914fbb8a53e7ad41c53, type: 3}
+  reload_clip: {fileID: 8300000, guid: 5352c7bdf44b11141ba87d35e6e5a45a, type: 3}
+  empty_clip: {fileID: 8300000, guid: 540f429d650fda448a3ad0ef6accd50d, type: 3}
+  cooldown_auto: 0.1
+  cooldown_semi: 0.5
+  cooldown: 0
+  recoil_force: 0.5
+  weaponDamage: 5
+  bonusDamageMultiplier: 0
+  ammo: 0
+  max_ammo: 20
+  equipedWeapon: Get
+  unEquipedWeapon: Hide
+  walk_animation: walking
+  sprint_animation: sprinting
+  shot_animation: Shot
+  walk_aim_animation: aiming_walk
+  shot_aim_animation: Aiming_Shot
+  reload_animation: Recharge
+  aim_animation: isAiming
+  aimingPos: {x: 0, y: 0.02, z: -0.2}

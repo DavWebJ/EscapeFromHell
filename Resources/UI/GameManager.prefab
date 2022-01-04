@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5846689343840735532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5846689343840735523}
+  - component: {fileID: 5846689343840735522}
+  - component: {fileID: 5846689343840735521}
+  - component: {fileID: 5846689343840735520}
+  - component: {fileID: 5846689343840735533}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5846689343840735523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846689343840735532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.731707, y: 4.2477765, z: -8.723594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5846689343840735522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846689343840735532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7084da852a9bfa4497d66d73c218844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outline_mode: 0
+  outline_color:
+    serializedVersion: 2
+    rgba: 4292109704
+  outlin_width: 2
+  enabledPad: 0
+  user_mouseSensitivity: 300
+  multiMouseSensi: 1
+--- !u!114 &5846689343840735521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846689343840735532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47534fa45e1b0ce46a26d276f7734624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input_actionPrimary: 323
+  input_actionSecondary: 324
+  input_moveobject: 325
+  input_pickup: 101
+  input_equip: 102
+  input_dropobject: 103
+  input_openInventory: 9
+  input_inspect: 116
+  input_run: 304
+  input_jump: 32
+  input_crouch: 313
+  input_reload: 114
+  input_LightOnOff: 111
+  gamepad_input_inventory: B
+  gamepad_input_actionPrimary: Y
+  gamepad_input_actionSecondary: LB
+  gamepad_input_run: Sprint
+  gamepad_input_jump: Jump
+  gamepad_input_moveObject: RB
+  gamepad_input_drop: LT
+  gamepad_input_crouch: Crouch
+  gamepad_input_lightAttack: 
+  gamepad_input_heavyattak: 
+  gamepad_input_split: Y
+  gamepad_input_dropAll: X
+  gamepad_input_use_item: A
+  gamepad_input_equiped_weapon: A
+  gamepad_input_fire: RT
+  gamepad_input_reload_weapon: X
+  gamepad_input_reload_flashlight: X
+  gamepad_input_aiming: LT
+--- !u!114 &5846689343840735520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846689343840735532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a36f5da9212c5d4b888b360f84cf3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootTables: []
+  surfaces_DataBase:
+  - name: Wood
+    bullet_impact: {fileID: 1000011190285628, guid: beb3acff7ab73944fb8f470f24d74ed3, type: 3}
+  - name: Metal
+    bullet_impact: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
+  - name: Sand
+    bullet_impact: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+  - name: Stone
+    bullet_impact: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980, type: 3}
+  - name: Grass
+    bullet_impact: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+  - name: Concrete
+    bullet_impact: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980, type: 3}
+  - name: Water
+    bullet_impact: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+  - name: Dirt
+    bullet_impact: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+--- !u!114 &5846689343840735533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846689343840735532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b04495fba6876f448f557e999fd910d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options: {fileID: 0}
+  input: {fileID: 0}
+  resources: {fileID: 0}
+  audioManager: {fileID: 0}
+  IsGameStarted: 0
+  enabledmouse: 0
+  enabledGamepad: 0

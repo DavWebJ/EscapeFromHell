@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0ba96d148900d409e7b4bcd4ca53b0, type: 3}
+  m_Name: HealthBox
+  m_EditorClassIdentifier: 
+  ItemName: HealthBox
+  ItemDescription: trousse de premier secour, redonne le max de vie
+  ItemIcon: {fileID: 21300050, guid: e35b1509688e6294cad1ada6c91b7693, type: 3}
+  price: 0
+  itemType: 2
+  ItemRarity: 0
+  objectType: 0
+  firemode: 1
+  weaponType: 0
+  useWithAnimation: 0
+  amount: 1
+  maxAmount: 10
+  stackable: 1
+  isPerimable: 0
+  fx: []
+  heal_clip: {fileID: 8300000, guid: d2173bb8e5a7b734f927539073afdf2d, type: 3}
+  equiped_clip: {fileID: 8300000, guid: 153265b670cc4e64f9c556abd900ff70, type: 3}
+  exhal_clip: {fileID: 8300000, guid: 83fae0672fd00834a8998cbbf25bc615, type: 3}
+  rarityItem: 25
+  ItemGroundPrefabs: {fileID: 2191753748256452722, guid: 4fdb93bde3c50754b8f90e8167d253e8, type: 3}
+  WeaponArmPrefab: {fileID: 0}
+  ToolsArmPrefab: {fileID: 4709407902767420203, guid: f86a30b37d88777448164e923c573e50, type: 3}
+  attributes:
+    name: Heal
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    destroyItemAfterAction: 1
+    actions:
+    - name: Heal
+      fonctions: AddHealthFull
+      value: 100
+  actions:
+    name: 
+    fonctions: 
+    value: 0
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    recipeCraftItems: []
+  buildable:
+    BuilditemName: 
+    BuildItemPrefabs: {fileID: 0}
